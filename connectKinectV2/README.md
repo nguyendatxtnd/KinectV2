@@ -34,7 +34,7 @@
 
             cd ~/libfreenect2/build/bin
 
-            ./Protonect
+            sudo ./Protonect
 
 2. Cài đặt pylibfreenect2
 - pylibfreenect2 là binding python của thư viện libfreenect2 (dành cho kinect v2).
