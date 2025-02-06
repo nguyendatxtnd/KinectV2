@@ -1,5 +1,5 @@
 1. Cài đặt libfreenect2
-
+- libfreenect2 là thư viện mã nguồn mở dùng để giao tiếp với kinect v2 mà không cần SDK.
 - Cài đặt các phụ thuộc cần thiết:
 
         sudo apt update
@@ -32,15 +32,16 @@
 
 - Kiểm tra cài đặt:
 
-            cd ~/libfreenect2/Build/bin
+            cd ~/libfreenect2/build/bin
 
             ./Protonect
 
-2. Cài đặt pylibfreenect2 
+2. Cài đặt pylibfreenect2
+- pylibfreenect2 là binding python của thư viện libfreenect2 (dành cho kinect v2).
 
         https://r9y9.github.io/pylibfreenect2/latest/installation.html
 
-3. 
+2. 
 - lưu ý: dữ liệu thu được từ đoạn file code sau chưa có sự đồng nhất về kích thước của 2 dữ liệu depth và rgb (depth: 512x424, rgb: 1920x1080 )
 
 - Tạo folder để lưu dữ liệu (chú ý sửa tên các folder trong code (data/data_test (or data/data_train) và file data/data_test.csv (or data/data_train.csv (folder trong code)) để lưu dữ liệu và đường dẫn đến file lưu dữ liệu))
